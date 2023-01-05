@@ -34,7 +34,7 @@
 |:-:|:-:|:-:|:-:|:-:|
 |1|2167|[2차원 배열의 합](https://www.acmicpc.net/problem/2167)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/>|누적합|
 |1|20438|[출석체크](https://www.acmicpc.net/problem/20438)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|누적합|
-|1|11660|[구간 합 구하기](https://www.acmicpc.net/problem/11660)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|누적합|
+|1|11660|[구간 합 구하기 5](https://www.acmicpc.net/problem/11660)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|누적합|
 |1|1749|[점수따먹기](https://www.acmicpc.net/problem/1749)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>|누적합|
 |1|21757|[나누기](https://www.acmicpc.net/problem/21757)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/>|누적 합|
 
