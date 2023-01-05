@@ -4,7 +4,7 @@
 
 - 코드리뷰를 위해 변수명과 로직을 명확하게 해서 가독성이 좋고 일관된 코드를 작성하도록 노력
 - 일주일안에 정해진 문제 못풀면 **스벅/투썸 커피** 한잔씩 돌리기
-- 월요일 23:59분까지 PR보내기
+- 월요일 23:59분까지 PR 보내기
 - 목요일 회의 전 까지 코드리뷰 마무리
 - 이 레포를 개인 깃으로 포크해간 후 개인 깃에서 PR 보내기
 - 매주 리뷰어들 매칭은 랜덤
@@ -28,7 +28,7 @@
 
 ## 순서
 
-1. 누적합
+1. 누적 합
 2. 구현
 3. 그래프
 4. DFS/BFS
@@ -44,10 +44,10 @@
 
 ## 주차별 문제
 
-|주차|문제 번호|문제이름|레벨|
-|-|:-:|:-:|-|
-|1|2167|[2차원 배열의 합](https://www.acmicpc.net/problem/2167)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/>|
-|1|20438|[출석체크](https://www.acmicpc.net/problem/20438)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|
-|1|11660|[구간 합 구하기](https://www.acmicpc.net/problem/11660)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|
-|1|1749|[점수따먹기](https://www.acmicpc.net/problem/1749)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>|
-|1|21757|[나누기](https://www.acmicpc.net/problem/21757)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/>|
+|주차|문제 번호|문제이름|레벨|분류|
+|:-:|:-:|:-:|:-:|:-:|
+|1|2167|[2차원 배열의 합](https://www.acmicpc.net/problem/2167)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/>|누적 합|
+|1|20438|[출석체크](https://www.acmicpc.net/problem/20438)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|누적 합|
+|1|11660|[구간 합 구하기](https://www.acmicpc.net/problem/11660)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|누적 합|
+|1|1749|[점수따먹기](https://www.acmicpc.net/problem/1749)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>|누적 합|
+|1|21757|[나누기](https://www.acmicpc.net/problem/21757)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/>|누적 합|
