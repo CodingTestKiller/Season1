@@ -22,6 +22,6 @@ for i in range(1, n + 1):
         dp[i][j] = arr[i-1][j-1] + dp[i-1][j] + dp[i][j-1] - dp[i-1][j-1]
 
 for _ in range(k):
-    x1, x2, y1, y2 = map(int,input().split())
+    i, j, x, y = map(int,input().split())
     result = 0
-    print(dp[y1][y2] - dp[x1-1][y2] - dp[y1][x2-1] + dp[x1-1][x2-1])
+    print(dp[x][y] - dp[i-1][y] - dp[x][j-1] + dp[i-1][j-1])
