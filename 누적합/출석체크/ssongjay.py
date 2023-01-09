@@ -15,10 +15,7 @@ for i in range(N + 3):
 
 sum_student = [0 for _ in range(N + 3)]
 for i in range(3, N + 3):
-	if i == 3:
-		sum_student[i] = check_students[i]
-	else:
-		sum_student[i] = sum_student[i - 1] + check_students[i];
+	sum_student[i] = sum_student[i - 1] + check_students[i];
 
 for _ in range(M):
 	S, E = [int(x) for x in sys.stdin.readline().rstrip().split()]
