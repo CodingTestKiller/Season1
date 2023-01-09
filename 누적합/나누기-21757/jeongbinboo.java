@@ -25,23 +25,41 @@ public class jeongbinboo
                 sum[i] = arr[i] + sum[i - 1];
             }
         }
-        for(int j = 1; j <= n - 3; j++){
-            for(int k = j + 1; k <= n - 2; k++){
-                for(int l = k + 1; l <= n - 1; l++){
-                    int sum1 = sum[j - 1];
-                    int sum2 = sum[k - 1] - sum[j - 1];
-                    int sum3 = sum[l - 1] - sum[k - 1];
-                    int sum4 = sum[n - 1] - sum[l - 1];
-                    if(sum1 == sum2 && sum2 == sum3 && sum3 == sum4){
-                        ++count;
-                    }
-
+        if(sum[n - 1] % 4 != 0){
+            bw.write("0");
+        } else if (sum[n - 1] == 0) {
+            long zeroCnt = 0;
+            for(int i = 0; i < n; i++){
+                if(sum[i] == 0){
+                    ++zeroCnt;
                 }
             }
+            String answer = Long.toString(((zeroCnt - 1) * (zeroCnt - 2) * (zeroCnt - 3)) / 6);
+            bw.write(answer);
+        } else{
+            for(int j = 1; j <= n - 3; j++) {
+                int sum1 = sum[j - 1];
+                if(sum1 * 4 != sum[n - 1]){
+                    continue;
+                }
+                for (int k = j + 1; k <= n - 2; k++) {
+                    int sum2 = sum[k - 1] - sum[j - 1];
+                    if(sum2 * 4 != sum[n - 1]){
+                        continue;
+                    }
+                    for (int l = k + 1; l <= n - 1; l++) {
+                        int sum3 = sum[l - 1] - sum[k - 1];
+                        int sum4 = sum[n - 1] - sum[l - 1];
+                        if (sum1 == sum2 && sum2 == sum3 && sum3 == sum4) {
+                            ++count;
+                        }
 
+                    }
+                }
+            }
+            String answer = Long.toString(count);
+            bw.write(answer);
         }
-        String answer = Long.toString(count);
-        bw.write(answer);
         bw.newLine();
         bw.flush();
         bw.close();
