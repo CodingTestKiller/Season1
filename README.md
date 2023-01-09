@@ -34,7 +34,7 @@
 |:-:|:-:|:-:|:-:|:-:|
 |1|2167|[2차원 배열의 합](https://www.acmicpc.net/problem/2167)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/>|누적합|
 |1|20438|[출석체크](https://www.acmicpc.net/problem/20438)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|누적합|
-|1|11660|[구간 합 구하기](https://www.acmicpc.net/problem/11660)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|누적합|
+|1|11660|[구간 합 구하기 5](https://www.acmicpc.net/problem/11660)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|누적합|
 |1|1749|[점수따먹기](https://www.acmicpc.net/problem/1749)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>|누적합|
 |1|21757|[나누기](https://www.acmicpc.net/problem/21757)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/>|누적 합|
 
@@ -44,16 +44,15 @@
 |순번|분류|
 |:-:|:-:|
 |00.|누적합|
-|01.|누적합|
-|02.|구현|
-|03.|그래프|
-|04.|DFS/BFS|
-|05.|트리순회|
-|06.|완전탐색|
-|07.|백트래킹|
-|08.|비트마스킹|
-|09.|그리디|
-|10.|투포인터|
-|11.|이분탐색|
-|12.|DP|
-|13.|최단거리|
+|01.|구현|
+|02.|그래프|
+|03.|DFS/BFS|
+|04.|트리순회|
+|05.|완전탐색|
+|06.|백트래킹|
+|07.|비트마스킹|
+|08.|그리디|
+|09.|투포인터|
+|10.|이분탐색|
+|11.|DP|
+|12.|최단거리|
