@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 import java.lang.*;
-public class Main
+public class jeongbinboo
 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -14,6 +14,7 @@ public class Main
         int m = Integer.parseInt(nmSt.nextToken());
         char trainArr[][] = new char[n][20];
         StringBuilder seatArr[] = new StringBuilder[n];
+        StringBuilder arrived[] = new StringBuilder[n];
 
         for(int i = 0; i < n; i++){
             for(int j = 0; j < 20; j++){
@@ -49,16 +50,17 @@ public class Main
             }
             seatArr[i] = seat;
         }
-
+        arrived[0] = seatArr[0];
         for(int i = 1; i < n; i++){
             flag = 0;
-            for(int j = 0; j < i; j++){
-                if(seatArr[i].toString().equals(seatArr[j].toString())) {
+            for(int j = 0; j < count; j++){
+                if(seatArr[i].toString().equals(arrived[j].toString())) {
                     flag = 1;
                     break;
                 }
             }
             if(flag == 0){
+                arrived[count] = seatArr[i];
                 ++count;
             }
         }
