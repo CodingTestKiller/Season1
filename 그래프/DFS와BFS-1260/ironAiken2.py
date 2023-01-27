@@ -29,8 +29,8 @@ def BFS(vertice, visit_list, n):
 n, m, v = [int(x) for x in input().split(' ')]
 
 vertice = [[i + 1, []] for i in range(n)]
-visit_list = [0 for _ in range(m)]
-visit_list2 = [0 for _ in range(m)]
+visit_list = [0 for _ in range(n)]
+visit_list2 = [0 for _ in range(n)]
 
 
 for _ in range(m):
