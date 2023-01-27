@@ -7,27 +7,34 @@ r, c, n = [int(x) for x in input().split(' ')]
 map = [['.' for _ in range(c)] for _ in range(r)]
 bombfull_map = [['O' for _ in range(c)] for _ in range(r)]
 map2 = copy.deepcopy(bombfull_map)
-
+cnt = 0
 
 for i in range(r):
     map[i] = [char for char in input()]
     del map[i][-1]
 
-n -= 1
-
 if n == 0:
-    print(*map, sep='\n')
+    for i in range(len(map)):
+        print(''.join(s for s in map[i]))
     exit()
 
+cnt += 1
+
+if cnt == n:
+    for i in range(len(map)):
+        print(''.join(s for s in map[i]))
+    exit()
 
 while True:
-    n -= 1
-    if n == 0:
-        print(*bombfull_map, sep='\n')
+    cnt += 1
+
+    if cnt == n:
+        for i in range(len(bombfull_map)):
+            print(''.join(s for s in bombfull_map[i]))
         break
 
-    for i in range(r):
-        for j in range(c):
+    for i in range(len(map)):
+        for j in range(len(map[i])):
             if map[i][j] == 'O':
                 map2[i][j] = '.'
                 if i > 0:
@@ -42,7 +49,9 @@ while True:
     map = copy.deepcopy(map2)
     map2 = copy.deepcopy(bombfull_map)
 
-    n -= 1
-    if (n == 0):
-        print(*map, sep='\n')
+    cnt += 1
+
+    if cnt == n:
+        for i in range(len(map)):
+            print(''.join(s for s in map[i]))
         break
