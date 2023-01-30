@@ -8,5 +8,16 @@ def dfs(graph, v, visited):
         if not visited[i]:
             dfs(graph, i, visited)
 
+def bfs(graph, start, visited):
+    queue = deque([start])
+    visited[start] = True
+    while queue:
+        v = queue.popleft()
+        print(v, end=' ')
+        for i in graph[v]:
+            if not visited[i]:
+                queue.append[i]
+                visited[i] = True
+
 
 N, M, V = [int(x) for x in sys.stdin.readline().rstrip().split()]
