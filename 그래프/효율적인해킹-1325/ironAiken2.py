@@ -9,12 +9,9 @@ for _ in range(m):
     a, b = [int(x) for x in input().split(' ')]
     com[b-1].append(a)
 
-cnt = 0
-
 
 def bfs(num):
-    global cnt
-
+    cnt = 1
     q = []
     q.append(num)
     visit = [0 for _ in range(n)]
@@ -30,12 +27,14 @@ def bfs(num):
                 q.append(nc)
                 visit[nc-1] = 1
 
+    return cnt
+
 
 max_cnt = 0
 ans = []
 
 for i in range(1, n + 1):
-    cnt = 0
+    cnt = bfs(i)
     bfs(i)
     if cnt > max_cnt:
         max_cnt = cnt
