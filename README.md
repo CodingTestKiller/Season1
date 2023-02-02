@@ -44,6 +44,8 @@
 |2|22859|[HTML 파싱](https://www.acmicpc.net/problem/22859)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/>|구현|
 |3|1260|[DFS와 BFS](https://www.acmicpc.net/problem/1260)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|그래프|
 |3|16918|[봄버맨](https://www.acmicpc.net/problem/16918)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|그래프|
+|3|1325|[효율적인 해킹](https://www.acmicpc.net/problem/1325)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|그래프|
+|3|2667|[단지번호 붙히기](https://www.acmicpc.net/problem/2667)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|그래프|
 |3|5547|[일루미네이션](https://www.acmicpc.net/problem/5547)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|그래프|
 |3|16954|[움직이는 미로 탈출](https://www.acmicpc.net/problem/16954)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/>|그래프|
 
