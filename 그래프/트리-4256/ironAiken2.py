@@ -42,15 +42,17 @@ def postorder(root):
         postorder(tree[root][0])
     if tree[root][1] != 0:
         postorder(tree[root][1])
-    print(root, end=' ')
+    output.append(root)
 
+ans = []
 for _ in range(t):
     n = int(input())
+    output = []
     tree = [[0, 0] for _ in range(n + 1)]
     visit = [0 for _ in range(n + 1)]
 
-    preorder = [int(x) for x in input().split(' ')]
-    inorder = [int(x) for x in input().split(' ')]
+    preorder = [int(x) for x in input().strip().split(' ')]
+    inorder = [int(x) for x in input().strip().split(' ')]
     
     root = preorder[0]
     visit[root] = True
@@ -58,5 +60,9 @@ for _ in range(t):
     make_tree()
     
     postorder(root)
+    ans.append(output)
+
+for a in ans:
+  print(" ".join(list(map(str, a))))
 
     
