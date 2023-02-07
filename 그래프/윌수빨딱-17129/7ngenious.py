@@ -6,7 +6,7 @@ n, m = map(int, input().split())
 check = [list(map(int, input().strip())) for _ in range(n)]
 
 
-def bfs():
+def BFS():
     dx = [0,0,-1,1]
     dy = [1,-1,0,0]
     queue = deque()
@@ -34,4 +34,4 @@ def bfs():
 
     print("NIE")
 
-bfs()
+BFS()
