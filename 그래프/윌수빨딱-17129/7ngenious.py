@@ -7,8 +7,8 @@ check = [list(map(int, input().strip())) for _ in range(n)]
 
 
 def bfs():
-    dx = [1, -1, 0, 0]
-    dy = [0, 0, 1, -1]
+    dx = [0,0,-1,1]
+    dy = [1,-1,0,0]
     queue = deque()
     
     for i in range(n):
@@ -21,7 +21,7 @@ def bfs():
     while queue:
         x, y, depth = queue.popleft()
         for i in range(4):
-            nx = x + dx[i],
+            nx = x + dx[i]
             ny = y + dy[i]
             if nx < 0 or nx >= n or ny < 0 or ny>= m or check[nx][ny] == 1:
                 continue
@@ -33,6 +33,5 @@ def bfs():
             check[nx][ny] = 1
 
     print("NIE")
-
 
 bfs()
