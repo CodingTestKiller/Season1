@@ -21,7 +21,6 @@ def post_order(pre_order,in_order):
     
 t = int(inp().rstrip())
 for i in range(t):
-    ans = []
     n = inp().rstrip().split()
     pre_order = list(map(int, input().split()))
     in_order = list(map(int, input().split()))
