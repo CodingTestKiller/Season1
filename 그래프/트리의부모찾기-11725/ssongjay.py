@@ -1,12 +1,14 @@
 import sys
 
-sys.setrecursionlimit(10 ** 9)
+sys.setrecursionlimit(10**9)
+
 
 def dfs(graph, v, visited):
     for i in graph[v]:
         if visited[i] == 0:
             visited[i] = v
             dfs(graph, i, visited)
+
 
 input_ = sys.stdin.readline
 N = int(input_().rstrip())
