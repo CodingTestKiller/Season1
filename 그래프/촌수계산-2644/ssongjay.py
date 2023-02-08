@@ -1,5 +1,6 @@
 import sys
 
+
 def dfs(graph, v, find, visited, cnt, value):
     visited[v] = True
     cnt += 1
@@ -9,6 +10,7 @@ def dfs(graph, v, find, visited, cnt, value):
     for i in graph[v]:
         if not visited[i]:
             dfs(graph, i, find, visited, cnt, value)
+
 
 input_ = sys.stdin.readline
 n = int(input_().rstrip())
