@@ -1,7 +1,4 @@
 from sys import stdin
-import sys
-
-# sys.setrecursionlimit(100000)
 
 input = stdin.readline
 
@@ -18,15 +15,12 @@ class Node:
 def build_tree(inorder: list, preorder: list, current: int):
     root = Node(current)
     root_index = inorder.index(current)
-    # print('root', current, root_index)
 
     left_inorder = inorder[:root_index]
     right_inorder = inorder[root_index+1:]
-    # print('inorder', left_inorder, right_inorder)
 
     left_preorder = preorder[1:len(left_inorder)+1]
     right_preorder = preorder[len(left_inorder)+1:]
-    # print('postorder', left_preorder, right_preorder)
 
     if left_preorder:
         root.left = build_tree(left_inorder, left_preorder, left_preorder[0])
