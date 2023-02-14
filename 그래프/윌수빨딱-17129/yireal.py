@@ -2,7 +2,7 @@ import sys
 from collections import deque
 inp = sys.stdin.readline
 n,m = map(int,inp().rstrip().split())
-field = [list(map(int, list(inp().rstrip()))) for _ in range(n)]
+field = [list(map(int,list(inp().rstrip()))) for _ in range(n)]
 offset = [(-1,0),(1,0),(0,-1),(0,1)]
 des = [3,4,5]
 total = 0
