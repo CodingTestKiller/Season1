@@ -31,6 +31,8 @@
 
 ## 주차별 문제
 
+> **푼 문제 수: 23**
+
 |주차|문제 번호|문제이름|레벨|분류|
 |:-:|:-:|:-:|:-:|:-:|
 |1|2167|[2차원 배열의 합](https://www.acmicpc.net/problem/2167)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/>|누적합|
@@ -49,9 +51,13 @@
 |3|5547|[일루미네이션](https://www.acmicpc.net/problem/5547)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|그래프|
 |3|16954|[움직이는 미로 탈출](https://www.acmicpc.net/problem/16954)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/>|그래프|
 |4|2644|[촌수계산](https://www.acmicpc.net/problem/2644)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|그래프|
-|4|11725|[트리의 부모 찾기](https://www.acmicpc.net/problem/11725)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|그래프|
+|4|11725|[트리의 부모 찾기](https://www.acmicpc.net/problem/11725)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|트리|
 |4|17129|[윌리암슨수액빨이딱따구리가 정보섬에 올라온 이유](https://www.acmicpc.net/problem/17129)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|그래프|
-|4|4256|[트리](https://www.acmicpc.net/problem/4256)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/>|그래프|
+|4|4256|[트리](https://www.acmicpc.net/problem/4256)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/>|트리|
+|5|9934|[완전 이진트리](https://www.acmicpc.net/problem/9934)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|트리|
+|5|1991|[트리 순회](https://www.acmicpc.net/problem/1991)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|트리|
+|5|14940|[쉬운 최단 거리](https://www.acmicpc.net/problem/14940)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|그래프|
+|5|2250|[트리의 높이와 너비](https://www.acmicpc.net/problem/2250)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/>|트리|
 
    
 
