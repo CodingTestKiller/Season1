@@ -59,3 +59,5 @@ for a in place_price:
 
 result.sort()
 print(result[0])
+
+#
