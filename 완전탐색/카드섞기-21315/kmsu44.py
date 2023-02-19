@@ -24,3 +24,4 @@ for k1 in range(1, M+1):
             # print(k1, k2) -> 이렇게 출력하면 왜 점수가 안뜨지..
             result.append((k1, k2))
 print(*result[0])
+#
