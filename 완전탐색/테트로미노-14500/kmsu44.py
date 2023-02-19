@@ -54,3 +54,5 @@ for i in range(n):
             result = max(result, graph[i][j] + graph[i+1]
                          [j] + graph[i+1][j+1] + graph[i+1][j-1])
 print(result)
+
+#
