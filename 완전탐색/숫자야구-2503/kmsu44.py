@@ -1,3 +1,4 @@
+# 솔루션 참고
 import itertools
 n = int(input())
 num_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
