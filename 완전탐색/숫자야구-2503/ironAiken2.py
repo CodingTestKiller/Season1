@@ -1,4 +1,4 @@
-#메리로 똥싸다가 솔루션 봤습니다 너무 어렵네요,.
+#머리로 똥싸다가 솔루션 봤습니다 너무 어렵네요,.
 from sys import stdin
 input = stdin.readline
 from itertools import permutations
