@@ -31,7 +31,7 @@
 
 ## 주차별 문제
 
-> **푼 문제 수: 23**
+> **푼 문제 수: 27**
 
 |주차|문제 번호|문제이름|레벨|분류|
 |:-:|:-:|:-:|:-:|:-:|
@@ -58,6 +58,10 @@
 |5|1991|[트리 순회](https://www.acmicpc.net/problem/1991)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|트리|
 |5|14940|[쉬운 최단 거리](https://www.acmicpc.net/problem/14940)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|그래프|
 |5|2250|[트리의 높이와 너비](https://www.acmicpc.net/problem/2250)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/>|트리|
+|6|9095|[1,2,3 더하기](https://www.acmicpc.net/problem/9095)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/>|DP|
+|6|11051|[이항계수 2](https://www.acmicpc.net/problem/11051)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|DP|
+|6|9084|[동전](https://www.acmicpc.net/problem/9084)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|DP|
+|6|9251|[LCS](https://www.acmicpc.net/problem/9251)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|DP|
 
    
 
