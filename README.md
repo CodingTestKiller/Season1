@@ -67,9 +67,9 @@
 |7|9084|[동전](https://www.acmicpc.net/problem/9084)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|DP|
 |7|9251|[LCS](https://www.acmicpc.net/problem/9251)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|DP|
 |8|15724|[주지수](https://www.acmicpc.net/problem/15724)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|DP|
-|8|10844|[쉬운 계단 수](https://www.acmicpc.net/problem/10844)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|DP|
+|8|2156|[포도주 시식](https://www.acmicpc.net/problem/2156)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|DP|
 |8|12865|[평범한 배낭](https://www.acmicpc.net/problem/12865)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|DP|
-|8|2225|[합분해](https://www.acmicpc.net/problem/2225)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|DP|
+|8|14567|[선수과목](https://www.acmicpc.net/problem/14567)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|DP|
 
    
 
