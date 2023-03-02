@@ -31,7 +31,7 @@
 
 ## 주차별 문제
 
-> **푼 문제 수: 27**
+> **푼 문제 수: 31**
 
 |주차|문제 번호|문제이름|레벨|분류|
 |:-:|:-:|:-:|:-:|:-:|
@@ -58,10 +58,18 @@
 |5|1991|[트리 순회](https://www.acmicpc.net/problem/1991)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|트리|
 |5|14940|[쉬운 최단 거리](https://www.acmicpc.net/problem/14940)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|그래프|
 |5|2250|[트리의 높이와 너비](https://www.acmicpc.net/problem/2250)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/>|트리|
-|6|9095|[1,2,3 더하기](https://www.acmicpc.net/problem/9095)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/>|DP|
-|6|11051|[이항계수 2](https://www.acmicpc.net/problem/11051)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|DP|
-|6|9084|[동전](https://www.acmicpc.net/problem/9084)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|DP|
-|6|9251|[LCS](https://www.acmicpc.net/problem/9251)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|DP|
+|6|2503|[숫자야구](https://www.acmicpc.net/problem/2503)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/>|완전탐색|
+|6|14620|[꽃길](https://www.acmicpc.net/problem/14620)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|완전탐색|
+|6|21315|[카드섞기](https://www.acmicpc.net/problem/21315)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|완전탐색|
+|6|14500|[테트로미노](https://www.acmicpc.net/problem/14500)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>|완전탐색|
+|7|9095|[1,2,3 더하기](https://www.acmicpc.net/problem/9095)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/>|DP|
+|7|11051|[이항계수 2](https://www.acmicpc.net/problem/11051)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|DP|
+|7|9084|[동전](https://www.acmicpc.net/problem/9084)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|DP|
+|7|9251|[LCS](https://www.acmicpc.net/problem/9251)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|DP|
+|8|15724|[주지수](https://www.acmicpc.net/problem/15724)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|DP|
+|8|10844|[쉬운 계단 수](https://www.acmicpc.net/problem/10844)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|DP|
+|8|12865|[평범한 배낭](https://www.acmicpc.net/problem/12865)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|DP|
+|8|2225|[합분해](https://www.acmicpc.net/problem/2225)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|DP|
 
    
 
