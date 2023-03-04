@@ -12,15 +12,15 @@ dp = [0] * n
 
 wine = [int(input()) for _ in range(n)]
 
-if n == 1:
-    print(wine[0])
-    exit()
-elif n == 2:
-    print(wine[1])
-    exit()
 
 dp[0] = wine[0]
+if n == 1:
+    print(dp[-1])
+    exit()
 dp[1] = wine[0] + wine[1]
+if n == 2:
+    print(dp[-1])
+    exit()
 dp[2] = max(dp[1], wine[0] + wine[2], wine[1] + wine[2])
 
 for i in range(3, n):
