@@ -31,7 +31,7 @@
 
 ## 주차별 문제
 
-> **푼 문제 수: 31**
+> **푼 문제 수: 35**
 
 |주차|문제 번호|문제이름|레벨|분류|
 |:-:|:-:|:-:|:-:|:-:|
@@ -70,7 +70,10 @@
 |8|2156|[포도주 시식](https://www.acmicpc.net/problem/2156)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|DP|
 |8|12865|[평범한 배낭](https://www.acmicpc.net/problem/12865)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|DP|
 |8|14567|[선수과목](https://www.acmicpc.net/problem/14567)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|DP|
-
+|9|2422|[한윤정이 이탈리아에 가서 아이스크림을 사먹는데](https://www.acmicpc.net/problem/2422)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/>|완전탐색|
+|9|14712|[넴모넴모](https://www.acmicpc.net/problem/14712)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|백트래킹|
+|9|16987|[계란으로 계란치기](https://www.acmicpc.net/problem/16987)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|백트래킹|
+|9|9663|[N-Queen](https://www.acmicpc.net/problem/9663)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>|백트래킹|
    
 
 ## 스터디 진행 순서
