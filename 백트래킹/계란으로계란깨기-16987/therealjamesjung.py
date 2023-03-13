@@ -14,10 +14,6 @@ for _ in range(n):
 max_cnt = 0
 
 
-def break_egg(durabilities: list, weights: list, egg1: int, egg2):
-    return durabilities[egg1] - weights[egg2], durabilities[egg2] - weights[egg1]
-
-
 def dfs(durabilities: list, weights: list, index: int, cnt: int):
     global max_cnt
     max_cnt = max(max_cnt, cnt)
