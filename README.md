@@ -31,7 +31,7 @@
 
 ## 주차별 문제
 
-> **푼 문제 수: 35**
+> **푼 문제 수: 39**
 
 |주차|문제 번호|문제이름|레벨|분류|
 |:-:|:-:|:-:|:-:|:-:|
@@ -74,6 +74,10 @@
 |9|14712|[넴모넴모](https://www.acmicpc.net/problem/14712)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|백트래킹|
 |9|16987|[계란으로 계란치기](https://www.acmicpc.net/problem/16987)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|백트래킹|
 |9|9663|[N-Queen](https://www.acmicpc.net/problem/9663)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>|백트래킹|
+|10|14916|[거스름돈](https://www.acmicpc.net/problem/14916)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/>|그리디|
+|10|16953|[A->B](https://www.acmicpc.net/problem/16953)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|그리디|
+|10|2212|[센서](https://www.acmicpc.net/problem/2212)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|그리디|
+|10|8980|[택배](https://www.acmicpc.net/problem/8980)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/>|그리디|
    
 
 ## 스터디 진행 순서
