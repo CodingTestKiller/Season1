@@ -17,13 +17,10 @@ for i in D:
 S = 0
 # print(k_list)
 if k_list:
-    k_list.sort()
-    prev = L[0]
-    for i in k_list:
-        S += L[i] - prev
-        prev = L[i+1]
-    S += L[-1] - prev
-
+    for a, b in D:
+        if a in k_list:
+            continue
+        S += b
 else:
     S += L[-1] - L[0]
 print(S)
