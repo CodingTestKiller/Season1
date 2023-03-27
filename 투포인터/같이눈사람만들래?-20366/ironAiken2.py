@@ -7,28 +7,25 @@ n = int(input())
 snow = [int(x) for x in input().split()]
 snow.sort()
 
+ans = 10000000000
 
-ans = []
+for i in range(n-3):
+    for j in range(i+3, n):
+        snow1 = snow[i] + snow[j]
 
-for i in range(2):
-    min = snow[1] - snow[0]
-    p1 = 0
-    p2 = 1
-    index = [0, 1]
+        p1, p2 = i+1, j-1
 
-    while p2 < len(snow):
+        while p1 < p2:
+            snow2 = snow[p1] + snow[p2]
 
-        if snow[p2] - snow[p1] < min:
-            index[1] = p2
-            index[0] = p1
-            min = snow[p2] - snow[p1]
+            ans = min(abs(snow1 - snow2), ans)
 
-        p1 += 1
-        p2 += 1
-
-    ans.append([snow[index[0]], snow[index[1]]])
-    del snow[index[1]]
-    del snow[index[0]]
+            if snow1 > snow2:
+                p1 += 1
+            elif snow1 < snow2:
+                p2 -= 1
+            else:
+                print(0)
+                exit()
 
 print(ans)
-print(abs((ans[0][0] + ans[1][1]) - (ans[0][1] + ans[1][0])))
