@@ -31,7 +31,7 @@
 
 ## 주차별 문제
 
-> **푼 문제 수: 43**
+> **푼 문제 수: 47**
 
 |주차|문제 번호|문제이름|레벨|분류|
 |:-:|:-:|:-:|:-:|:-:|
@@ -82,6 +82,11 @@
 |11|20922|[겹치는 건 싫어](https://www.acmicpc.net/problem/20922)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|투포인터|
 |11|15961|[회전 초밥](https://www.acmicpc.net/problem/15961)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>|투포인터|
 |11|20366|[같이 눈사람 만들래?](https://www.acmicpc.net/problem/20366)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/>|투포인터|
+|12|2417|[점수 제곱근](https://www.acmicpc.net/problem/2417)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/>|이분탐색|
+|12|22871|[징검다리건너기(large)](https://www.acmicpc.net/problem/22871)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|이분탐색|
+|12|3079|[입국심사](https://www.acmicpc.net/problem/3079)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|이분탐색|
+|12|1300|[K번째 수](https://www.acmicpc.net/problem/1300)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/>|이분탐색|
+
 
 
 ## 스터디 진행 순서
