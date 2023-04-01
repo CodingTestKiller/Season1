@@ -6,7 +6,7 @@ for i in range(n):
     T_list.append(int(input()))
 
 left = 0
-right = sys.maxsize
+right = min(T_list) * m
 while left <= right:
     mid = (left + right) // 2
     num = 0
