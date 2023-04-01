@@ -1,3 +1,5 @@
+
+
 n = int(input())
 k = int(input())
 left = 1
@@ -11,5 +13,4 @@ while left <= right:
         right = mid - 1
     else:
         left = mid + 1
-
 print(left)
