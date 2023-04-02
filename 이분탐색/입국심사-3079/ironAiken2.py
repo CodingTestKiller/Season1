@@ -24,7 +24,7 @@ def is_possible(gates: list, limit: int, m: int) -> bool:
 
 ans = 0
 
-while start < end:
+while start <= end:
     middle = (start+end) // 2
 
     if is_possible(gates, middle, m):
@@ -33,7 +33,4 @@ while start < end:
     else:
         start = middle+1
 
-if is_possible(gates, start, m):
-    print(start)
-else:
-    print(middle)
+print(ans)
