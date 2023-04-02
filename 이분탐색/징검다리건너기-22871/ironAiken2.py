@@ -27,15 +27,14 @@ def is_possible(stones: list, power: int) -> bool:
     return False
 
 
-while left < right:
+ans = 0
+while left <= right:
     middle = (left + right) // 2
 
     if is_possible(stones, middle):
         right = middle - 1
+        ans = middle
     else:
         left = middle + 1
 
-if not is_possible(stones, left):
-    print(left + 1)
-else:
-    print(left)
+print(ans)
