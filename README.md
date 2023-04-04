@@ -31,7 +31,7 @@
 
 ## 주차별 문제
 
-> **푼 문제 수: 27**
+> **푼 문제 수: 47**
 
 |주차|문제 번호|문제이름|레벨|분류|
 |:-:|:-:|:-:|:-:|:-:|
@@ -58,12 +58,36 @@
 |5|1991|[트리 순회](https://www.acmicpc.net/problem/1991)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|트리|
 |5|14940|[쉬운 최단 거리](https://www.acmicpc.net/problem/14940)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|그래프|
 |5|2250|[트리의 높이와 너비](https://www.acmicpc.net/problem/2250)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/>|트리|
-|6|9095|[1,2,3 더하기](https://www.acmicpc.net/problem/9095)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/>|DP|
-|6|11051|[이항계수 2](https://www.acmicpc.net/problem/11051)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|DP|
-|6|9084|[동전](https://www.acmicpc.net/problem/9084)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|DP|
-|6|9251|[LCS](https://www.acmicpc.net/problem/9251)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|DP|
+|6|2503|[숫자야구](https://www.acmicpc.net/problem/2503)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/>|완전탐색|
+|6|14620|[꽃길](https://www.acmicpc.net/problem/14620)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|완전탐색|
+|6|21315|[카드섞기](https://www.acmicpc.net/problem/21315)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|완전탐색|
+|6|14500|[테트로미노](https://www.acmicpc.net/problem/14500)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>|완전탐색|
+|7|9095|[1,2,3 더하기](https://www.acmicpc.net/problem/9095)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/>|DP|
+|7|11051|[이항계수 2](https://www.acmicpc.net/problem/11051)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|DP|
+|7|9084|[동전](https://www.acmicpc.net/problem/9084)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|DP|
+|7|9251|[LCS](https://www.acmicpc.net/problem/9251)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|DP|
+|8|15724|[주지수](https://www.acmicpc.net/problem/15724)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|DP|
+|8|2156|[포도주 시식](https://www.acmicpc.net/problem/2156)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|DP|
+|8|12865|[평범한 배낭](https://www.acmicpc.net/problem/12865)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|DP|
+|8|14567|[선수과목](https://www.acmicpc.net/problem/14567)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|DP|
+|9|2422|[한윤정이 이탈리아에 가서 아이스크림을 사먹는데](https://www.acmicpc.net/problem/2422)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/>|완전탐색|
+|9|14712|[넴모넴모](https://www.acmicpc.net/problem/14712)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|백트래킹|
+|9|16987|[계란으로 계란치기](https://www.acmicpc.net/problem/16987)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|백트래킹|
+|9|9663|[N-Queen](https://www.acmicpc.net/problem/9663)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>|백트래킹|
+|10|14916|[거스름돈](https://www.acmicpc.net/problem/14916)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/>|그리디|
+|10|16953|[AtoB](https://www.acmicpc.net/problem/16953)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>|그리디|
+|10|2212|[센서](https://www.acmicpc.net/problem/2212)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|그리디|
+|10|8980|[택배](https://www.acmicpc.net/problem/8980)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/>|그리디|
+|11|11728|[배열 합치기](https://www.acmicpc.net/problem/11728)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/>|투포인터|
+|11|20922|[겹치는 건 싫어](https://www.acmicpc.net/problem/20922)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|투포인터|
+|11|15961|[회전 초밥](https://www.acmicpc.net/problem/15961)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>|투포인터|
+|11|20366|[같이 눈사람 만들래?](https://www.acmicpc.net/problem/20366)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/>|투포인터|
+|12|2417|[점수 제곱근](https://www.acmicpc.net/problem/2417)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/>|이분탐색|
+|12|22871|[징검다리건너기(large)](https://www.acmicpc.net/problem/22871)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/>|이분탐색|
+|12|3079|[입국심사](https://www.acmicpc.net/problem/3079)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>|이분탐색|
+|12|1300|[K번째 수](https://www.acmicpc.net/problem/1300)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/>|이분탐색|
 
-   
+
 
 ## 스터디 진행 순서
 
