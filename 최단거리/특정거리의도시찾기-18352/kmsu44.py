@@ -9,7 +9,7 @@ for _ in range(m):
     start, end = map(int, input().split())
     graph[start-1].append(end-1)
 
-cnt = 0
+
 distance_list[x-1] = 0
 
 heap = []
