@@ -4,7 +4,6 @@ graph = [list(map(int, input().split())) for _ in range(n)]
 
 
 edge_list = list(combinations([i for i in range(n)], 2))
-
 alive = []
 answer = 0
 for idx, edge in enumerate(edge_list):
@@ -20,11 +19,6 @@ for idx, edge in enumerate(edge_list):
             print(-1)
             exit()
     if flag == 0:
-        alive.append(idx)
-s = 0
-for e in alive:
-    i, j = edge_list[e]
-    s += graph[i][j]
+        answer += graph[i][j]
 
-
-print(s)
+print(answer)
